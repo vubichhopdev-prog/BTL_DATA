@@ -1,0 +1,14 @@
+# Bỏ qua file rác Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Bỏ qua file cấu hình môi trường ảo (nếu có)
+venv/
+env/
+.env
+
+# Bỏ qua file dữ liệu LỚN (Theo quy định đề bài)
+# Tuy nhiên file ai4i2020.csv nhẹ (10k dòng), bạn có thể giữ lại để các bạn khác đỡ phải tải lại.
+# Nếu muốn bỏ qua data thì bỏ comment dòng dưới:
+# data/
